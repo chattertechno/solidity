@@ -201,7 +201,7 @@ function NewAssetTemplate({
                     <ContainerView>
                         <Title>Create Your Password</Title>
                         <Description>
-                            Coinfy will protect your asset with a password. You
+                            Connectwallet will protect your asset with a password. You
                             need to remember your password as there is no way it
                             can be recovered. This password protects your
                             cryptocurrency if someone else tries to access your

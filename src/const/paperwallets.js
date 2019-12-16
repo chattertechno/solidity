@@ -89,7 +89,7 @@ body {
     <body>
         <div id="content">
             ${areas}
-            <div id="claim">COINFY.COM</div>
+            <div id="claim">connectingcoin.io</div>
         </div>
     </body>
 </html>
@@ -149,7 +149,7 @@ export const Words = words => {
             Please note, your recovery phrase is case sensitive and each word must be written in the correct order.
         </div>
         <div id="words">${words}</div>
-        <div id="claim">COINFY.COM</div>
+        <div id="claim">connectingcoin.io</div>
     </div>
 </body>
 </html>`

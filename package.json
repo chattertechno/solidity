@@ -1,7 +1,7 @@
 {
-    "name": "coinfy",
-    "version": "1.5.21",
-    "repository": "https://github.com/elevenyellow/coinfy",
+    "name": "connectwallet",
+    "version": "1.0.1",
+    "repository": "https://github.com/connectingcoin/connectcoin",
     "scripts": {
         "stats": "webpack --config=./webpack/production.js --profile --json > webpack-stats.json | open https://chrisbateman.github.io/webpack-visualizer/",
         "build": "webpack --config=./webpack/production.js --progress --colors --display-error-details",
@@ -66,5 +66,8 @@
         "webpack": "^3.12.0",
         "webpack-dev-middleware": "^1.6.1",
         "webpack-hot-middleware": "^2.12.2"
+    },
+    "optionalDependencies": {
+        "win-node-env": "^0.4.0"
     }
 }

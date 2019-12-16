@@ -1,4 +1,4 @@
-<p align="center"><a href="https://coinfy.com/"><img width="200"src="https://coinfy.com/static/image/logo2.svg"></a></p>
+<p align="center"><a href="https://connectpay.io/"><img width="200"src="hhttps://connectingcoin.io/wp-content/uploads/2018/09/WEBSITE-LOGO-1-300x75.png"></a></p>
 
 
 ### Coinfy is a free & open source online wallet for Bitcoin, Ethereum and ERC20 tokens. Own your private keys and hold your cryptocurrencies securely in your browser.

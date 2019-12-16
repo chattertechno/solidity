@@ -22,7 +22,7 @@ import {
 } from '/const/'
 
 // private
-export const api_key = 'GY9KKYEJF1HDEPIAIRGA66R2RIQWQXV9UZ'
+export const api_key = '1HVMDBX91397FX8BSNS3IX4BCJHABEZG61'
 export const networks = {
     [MAINNET]: {
         // mainnet

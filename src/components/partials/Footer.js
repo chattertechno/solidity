@@ -10,7 +10,7 @@ export default function Footer() {
                 <ul>
                     <li>
                         <a
-                            href="https://github.com/elevenyellow/coinfy/blob/master/FAQ.md"
+                            href="https://connectingcoin.io"
                             target="_blank"
                         >
                             FAQ
@@ -18,14 +18,14 @@ export default function Footer() {
                     </li>
                     <li>
                         <a
-                            href="https://twitter.com/coinfydotcom"
+                            href="https://twitter.com/connectingcoin"
                             target="_blank"
                         >
                             Twitter
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:support@coinfy.com">Support</a>
+                        <a href="mailto:support@connectpay.io">Support</a>
                     </li>
                     <li>
                         <a href={repository} target="_blank">

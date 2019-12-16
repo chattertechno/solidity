@@ -12,7 +12,7 @@ import styles from '/const/styles'
 
 import H1 from '/components/styled/H1'
 import H2 from '/components/styled/H2'
-import {
+import { 
     RightContainerPadding,
     RightHeader,
     RightContent

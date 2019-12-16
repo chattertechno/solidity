@@ -72,6 +72,14 @@ export const SGD = {
         `$${numberWithSeparation(decimals(value, n), separation)}`
 }
 
+export const TZS = {
+    symbol: 'TZS',
+    name: 'Tanzanian Shilling',
+    ascii: 'tzs',
+    format: (value, n, separation) =>
+        `tzs${numberWithSeparation(decimals(value, n), separation)}`
+}
+
 export const Fiats = {
     USD: USD,
     EUR: EUR,
@@ -81,5 +89,6 @@ export const Fiats = {
     CNY: CNY,
     AUD: AUD,
     CAD: CAD,
-    SGD: SGD
+    SGD: SGD,
+    TZS: TZS
 }

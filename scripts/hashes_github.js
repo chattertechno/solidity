@@ -97,7 +97,7 @@ function init(email) {
                             server.send(
                                 {
                                     subject:
-                                        'SOURCES IN COINFY DOES NOT MATCH WITH GITHUB!!',
+                                        'SOURCES IN CONNECTWALLET DOES NOT MATCH WITH GITHUB!!',
                                     text:
                                         'Those files does no match with the github version:\n\n' +
                                         text,

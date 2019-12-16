@@ -150,7 +150,7 @@ function SettingsTemplate({
                         <FormFieldLeft>
                             <Label>Fiat currency</Label>
                             {/* <SubLabel>
-                                Being on testnet you will use Coinfy within the
+                                Being on testnet you will use Connectwallet within the
                                 test networks.
                             </SubLabel> */}
                         </FormFieldLeft>
@@ -176,7 +176,7 @@ function SettingsTemplate({
                         <FormFieldLeft>
                             <Label>Network</Label>
                             <SubLabel>
-                                Being on testnet you will use Coinfy within the
+                                Being on testnet you will use connectwallet within the
                                 test networks.
                             </SubLabel>
                         </FormFieldLeft>
