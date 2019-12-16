@@ -12,4 +12,4 @@ app.use(
 app.get('*', (req, res) =>
     res.sendFile(path.resolve(__dirname, '../public/index.html'))
 )
-app.listen(8001, () => console.log('App listening on http://localhost:8001'))
+app.listen(8000, () => console.log('App listening on http://localhost:8000'))
