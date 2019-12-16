@@ -16,8 +16,8 @@ server {
     rewrite ^(.*) https://nolishfxfortune.com$1 permanent;
 
     listen 443 ssl; # managed by Certbot
-ssl_certificate /etc/letsencrypt/live/www.coinfy.com/fullchain.pem; # managed by Certbot
-ssl_certificate_key /etc/letsencrypt/live/www.coinfy.com/privkey.pem; # managed by Certbot
+ssl_certificate /etc/letsencrypt/live/www.nolishfxfortune.com/fullchain.pem; # managed by Certbot
+ssl_certificate_key /etc/letsencrypt/live/www.nolishfxfortune.com/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
 
 

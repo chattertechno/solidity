@@ -6,7 +6,7 @@
         "stats": "webpack --config=./webpack/production.js --profile --json > webpack-stats.json | open https://chrisbateman.github.io/webpack-visualizer/",
         "build": "webpack --config=./webpack/production.js --progress --colors --display-error-details",
         "dev": "NODE_ENV=development node src/server",
-        "prod": "NODE_ENV=production node src/server",
+        "start": "NODE_ENV=production node src/server",
         "forever": "NODE_ENV=production forever start src/server.js",
         "forever-stop": "forever stop src/server.js",
         "test": "babel-tape-runner --presets=react,es2015 test/*.js | faucet",
