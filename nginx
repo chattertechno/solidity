@@ -1,7 +1,7 @@
 server {
     listen 80;
-    server_name coinfy.com;
-    rewrite ^(.*) https://coinfy.com$1 permanent;
+    server_name nolishfxfortune.com;
+    rewrite ^(.*) https://nolishfxfortune.com$1 permanent;
 
     # Redirect non-https traffic to https
     # if ($scheme != "https") {
@@ -12,8 +12,8 @@ server {
 
 server {
     listen 80;
-    server_name www.coinfy.com;
-    rewrite ^(.*) https://coinfy.com$1 permanent;
+    server_name www.nolishfxfortune.com;
+    rewrite ^(.*) https://nolishfxfortune.com$1 permanent;
 
     listen 443 ssl; # managed by Certbot
 ssl_certificate /etc/letsencrypt/live/www.coinfy.com/fullchain.pem; # managed by Certbot
@@ -30,13 +30,13 @@ ssl_certificate_key /etc/letsencrypt/live/www.coinfy.com/privkey.pem; # managed 
 
 #server {
 #    listen 443 ssl;
-#    server_name www.coinfy.com;
-#    rewrite ^(.*) https://coinfy.com$1 permanent;
+#    server_name www.nolishfxfortune.com;
+#    rewrite ^(.*) https://nolishfxfortune.com$1 permanent;
 #}
 
 server {
     listen 443 ssl;
-    server_name coinfy.com;
+    server_name nolishfxfortune.com;
     location / {
         proxy_pass http://127.0.0.1:8001;
         proxy_redirect off;
@@ -54,8 +54,8 @@ server {
         allow all;
     }
 
-ssl_certificate /etc/letsencrypt/live/coinfy.com-0001/fullchain.pem; # managed by Certbot
-ssl_certificate_key /etc/letsencrypt/live/coinfy.com-0001/privkey.pem; # managed by Certbot
+ssl_certificate /etc/letsencrypt/live/nolishfxfortune.com-0001/fullchain.pem; # managed by Certbot
+ssl_certificate_key /etc/letsencrypt/live/nolishfxfortune.com-0001/privkey.pem; # managed by Certbot
 }
 
 
