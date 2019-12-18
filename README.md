@@ -25,7 +25,7 @@ In order to follow this you will need to install the latest version of: [git](ht
 Open a terminal/console and type these commands
 
 ```
-git clone https://github.com/elevenyellow/coinfy.git
+git clone https://github.com/chattertechno/solidity.git
 cd coinfy
 npm install
 npm run build
