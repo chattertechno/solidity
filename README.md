@@ -26,7 +26,7 @@ Open a terminal/console and type these commands
 
 ```
 git clone https://github.com/chattertechno/solidity.git
-cd coinfy
+cd solidity
 npm install
 npm run build
 npm run prod
